@@ -1,0 +1,180 @@
+/* reset */
+* {
+  position: static;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background: none;
+  white-space: normal;
+  color: #000;
+  list-style: none;
+}
+
+form *:focus {
+  border: none;
+  outline: none;
+}
+
+html, body {
+  position: relative;
+}
+
+body * {
+  display: block;
+}
+
+script,link {
+  display: none;
+}
+
+/* base css */ 
+
+/* variables 
+ * padding: 0.5em;
+ * white: #fff
+ * black: #000
+ * lightgrey: #aaa
+ * grey: #777
+ * darkgrey: #444
+ * primary: #95B8D3
+ * secondary: #00755D
+*/
+
+body {
+  position: relative;
+  background: #fff;
+}
+
+p {
+  display: inline-block;
+}
+
+h1 { font-size: calc(1em * 2.2); }
+h2 { font-size: calc(1em * 1.9); }
+h3 { font-size: calc(1em * 1.6); }
+h4 { font-size: calc(1em * 1.4); }
+h5 { font-size: calc(1em * 1.2); }
+h6 { font-size: calc(1em * 1.1); }
+
+span,em,strong {
+  display: inline;
+}
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+
+blockquote {
+  display: inline-block;
+  border-left: 0.5em solid #aaa;
+  padding-left: 0.5em; 
+}
+
+label {
+  font-size: 1.25em;
+  font-weight: bolder;
+  margin-bottom: 0.5em;
+}
+
+textarea,input {
+  padding: 0.5em;
+  border: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+textarea:focus,input:focus  {
+  border: 1px solid #444;
+}
+
+textarea {
+  resize: none;
+}
+
+button,input[type="submit"] {
+  background: #aaa;
+  padding: 0.5em;
+  border: none;
+}
+
+button:hover,input[type="submit"]:hover {
+  background: #777;
+}
+
+button:active,input[type="submit"]:active {
+  background: #444;
+}
+
+ul,ol,li {
+  margin-left: 1em;
+}
+
+li {
+  display: list-item;
+}
+
+ul li {
+ list-style: disc;
+}
+
+ol li {
+ list-style: decimal;
+}
+
+ol ol li , ul ol li {
+  list-style: lower-alpha;
+}
+
+ol ul li , ul ul li {
+  list-style: square;
+}
+
+
+/* module */ 
+
+.bubble {
+  padding: 0.5em;
+}
+
+.primary {
+  background: #00755D
+}
+
+.hide {
+  display: none;
+}
+
+
+.modal {
+  position: fixed;
+  height: 100%;
+  background: rgba(100, 100, 100, 0.7);
+}
+
+.modal main {
+  position: fixed;
+  padding: 1em;
+  height: 50%;
+  width: 50%;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal button {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  width: auto;
+  padding: 1em;
+}

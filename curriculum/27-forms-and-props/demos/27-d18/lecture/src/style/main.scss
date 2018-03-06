@@ -1,0 +1,23 @@
+@import './lib/vars';
+
+body {
+  width: 100%;
+  background: $primary;
+  font-family: $font-primary;
+  
+  .pokemon {
+    max-width: 50%;
+  }
+}
+
+input[type="text"] {
+  width: 100%;
+  margin: $gutter-sm;
+  border-radius: $border-radius;
+  transition: 350ms;
+
+  &:focus {
+    background: $black;
+    color: $white;
+  }
+}

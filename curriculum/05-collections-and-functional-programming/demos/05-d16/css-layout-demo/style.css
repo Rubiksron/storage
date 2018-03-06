@@ -1,0 +1,83 @@
+/* reset */ 
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  width: 100%;
+} 
+
+html, body {
+  height: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.app-header {
+  height: 10%;
+  border: 1px dotted red;
+  float: left;
+}
+
+.app-article {
+  height: 80%;
+  width: 50%;
+  border: 1px dotted blue;
+  float: left;
+}
+
+.app-aside {
+  height: 80%;
+  width: calc(50% / 3);
+  float: left; 
+  border: 1px dotted purple;
+}
+
+.app-tweet {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border: 1px dotted brown;
+}
+
+.app-main {
+  height: 80%;
+  width: calc(50% * (2/3));
+  float: left;
+  border: 1px dotted orange;
+  overflow: scroll;
+}
+
+.collection-item {
+  width: calc((100% / 3) - 0.5em);
+  height: 100px;
+  margin: 0.25em;
+  float: left;
+  border: 1px solid black;
+}
+
+.app-footer {
+  height: 10%;
+  border: 1px dotted green;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

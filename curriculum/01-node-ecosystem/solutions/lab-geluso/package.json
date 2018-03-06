@@ -1,0 +1,27 @@
+{
+  "name": "01-node-ecosystem",
+  "version": "1.0.0",
+  "description": "![CF](https://camo.githubusercontent.com/70edab54bba80edb7493cad3135e9606781cbb6b/687474703a2f2f692e696d6775722e636f6d2f377635415363382e706e67) 01: Node Ecosystem ===",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefellows-seattle-javascript-401d19/01-node-ecosystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codefellows-seattle-javascript-401d19/01-node-ecosystem/issues"
+  },
+  "homepage": "https://github.com/codefellows-seattle-javascript-401d19/01-node-ecosystem#readme",
+  "dependencies": {
+    "jest": "^22.0.3"
+  }
+}
